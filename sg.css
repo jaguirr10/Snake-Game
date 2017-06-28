@@ -1,0 +1,58 @@
+*{ 
+    padding:0; 
+    margin:0;
+    	margin-left: 10%;
+} 
+body{ 
+    background-color:#000; 
+} 
+td{ 
+    width:20px; 
+    height:20px;
+    
+} 
+.blank{ 
+    background-color:blank; 
+} 
+.snake{ 
+    background-color:white; 
+} 
+.wall{ 
+    background-color:green;
+	
+	
+    	
+} 
+.fruit{ 
+    background-color:red; 
+	
+} 
+
+
+#score{
+	   position: absolute;
+    margin-top: -300px;
+    margin-left: -11%;
+    font-size: 18px;
+    background-color: black;
+    color: #454545;
+    padding: 10px;
+	border: 5px solid white;
+    box-shadow: 4px 4px 0px 1px #000; 
+	font: normal 20px monospace; 
+	color: white;
+}
+
+
+#help{
+	   position: absolute;
+    margin-top: -200px;
+    margin-left: -12%;
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+	 border: 5px solid white;
+    padding: 10px;
+    box-shadow: 4px 4px 0px 1px #000; 
+}
+
